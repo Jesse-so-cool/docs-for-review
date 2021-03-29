@@ -1,3 +1,5 @@
 - [interview](/docs/工作学习报告.md)
+- [Kafka](/docs/Kafka.md)
+- [Redis](/docs/Redis.md)
 - [并发编程](/docs/并发编程/README.md)
   - [AQS](/docs/并发编程/AQS.md)
