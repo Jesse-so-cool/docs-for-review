@@ -1,9 +1,3 @@
 - [interview](/docs/工作学习报告.md)
 - [并发编程](/docs/并发编程/README.md)
   - [AQS](/docs/并发编程/AQS.md)
-  - 算法
-  - [排序算法](/general/algorithm/algorithms/sorting.md)
-- [设计模式](/general/design-pattern/README.md)
-- 网络
-  - [协议模型](/general/network/protocol-model.md)
-  - [TCP/IP](/general/network/tcp-ip.md)
