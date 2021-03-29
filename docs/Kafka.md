@@ -61,7 +61,6 @@ LEO是Log End Offset的缩写，它标识当前日志文件中下一条待写入
 ## 示例
 
 下图所示，Kafka集群中有4个broker，某个主题中有3个分区，且副本因子（即副本个数）也为3，如此每个分区便有1个leader副本和2个follower副本。生产者和消费者只与leader副本进行交互，而follower副本只负责消息的同步，很多时候follower副本中的消息相对leader副本而言会有一定的滞后。
-
 <img src="..\img\image-20200801180207353.png" alt="image-20200801180207353" style="zoom:150%;" />
 
 ## Kafka 消费端
