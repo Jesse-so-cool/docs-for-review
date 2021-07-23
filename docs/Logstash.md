@@ -1,6 +1,6 @@
 # Logstash
 
-![basic logstash pipeline](E:\坚果云\Typora\img\basic_logstash_pipeline.png)
+![basic logstash pipeline](..\img\basic_logstash_pipeline.png)
 
 
 
