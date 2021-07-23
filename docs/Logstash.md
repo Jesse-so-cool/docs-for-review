@@ -1,6 +1,6 @@
 # Logstash
 
-![basic logstash pipeline](..\img\basic_logstash_pipeline.png)
+![basic logstash pipeline](..\img\basic_logstash_pipeline-1627029645760.png)
 
 
 
