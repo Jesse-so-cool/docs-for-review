@@ -76,7 +76,7 @@ MongoDB sharding 主要将shardkey分割成块。每个块都由连续范围的k
 
 
 
-![Diagram of the shard key value space segmented into smaller ranges or chunks.](E:\坚果云\Typora\img\sharding-range-based.bakedsvg.svg)
+![Diagram of the shard key value space segmented into smaller ranges or chunks.](..\img\sharding-range-based.bakedsvg.svg)
 
 一个chunk最小是由一个key的value组成 例如{25：25}（当单个key太多 即使超过chunk也不会触发分裂）
 
@@ -113,7 +113,7 @@ chunkSize 为默认64MB是，分裂阈值如下
 
 Balancer 在工作时，会根据`shard tag`、`集合的 chunk 数量`、`shard 间 chunk 数量差值` 来决定是否需要迁移。
 
-![Diagram of a collection distributed across three shards. For this collection, the difference in the number of chunks between the shards reaches the *migration thresholds* (E:\坚果云\Typora\img\sharding-migrating.bakedsvg.svg) and triggers migration.](https://docs.mongodb.com/manual/images/sharding-migrating.bakedsvg.svg)
+![Diagram of a collection distributed across three shards. For this collection, the difference in the number of chunks between the shards reaches the *migration thresholds* (E:\坚果云\Typora\img\sharding-migrating.bakedsvg.svg) and triggers migration.](../img/sharding-migrating.bakedsvg.svg)
 
 > 在某些情况下，块可以超出指定的块大小，但不能进行分割。最常见的情况是当一个块表示一个shard键值时。由于区块无法分割，它会继续超出区块大小，成为一个巨型区块。当这些巨型块继续增长时，它们可能成为性能瓶颈，特别是当碎片键值出现频率很高时。
 >
@@ -153,7 +153,7 @@ GridFS也有一些**缺点**
 
 （1）将每个文章文档中的作者投射出来。（2）将作者按照名字排序，统计每个名字出现的次数。（3）将作者按照名字出现次数降序排列。（4）将返回结果限制为前5个。
 
-![image-20210721154459130](E:\坚果云\Typora\img\image-20210721154459130.png)
+![image-20210721154459130](..\img\image-20210721154459130.png)
 
 
 
