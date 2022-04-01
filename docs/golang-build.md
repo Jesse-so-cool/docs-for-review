@@ -83,7 +83,8 @@ go build -o testcgo-static-link  -ldflags \'-extldflags "-static"\' testcgo.go
     not a dynamic executable
 ```
 vs.
-```golang go build -o testcgo testcgo.go
+```golang 
+ go build -o testcgo testcgo.go
  ldd ./testcgo
     linux-vdso.so.1 =>  (0x00007ffe7fb8d000)
     libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fc361000000)
